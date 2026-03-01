@@ -1,1 +1,1716 @@
-teste
+{
+  "source": "tag_assistant_creamy_com_br_2026_02_26",
+  "site": "creamy.com.br",
+  "extraction_date": "2026-02-28",
+  "pages_in_session": [
+    {
+      "groupId": "8873220368238330",
+      "url": "https://www.creamy.com.br/acido-glicolico/p"
+    },
+    {
+      "groupId": "8699206865136620",
+      "url": "https://www.creamy.com.br/checkout#/payment"
+    },
+    {
+      "groupId": "4695457181170229",
+      "url": "https://www.creamy.com.br/checkout/orderPlaced/?og=1613606208509"
+    }
+  ],
+  "total_funnel_events": 24,
+  "funnel_events": [
+    {
+      "step": 1,
+      "event": "pageView",
+      "page_url": "https://www.creamy.com.br/acido-glicolico/p",
+      "dataLayer": {
+        "event": "pageView",
+        "location": "https://www.creamy.com.br/acido-glicolico/p",
+        "page": "/acido-glicolico/p",
+        "referrer": "https://tagassistant.google.com/",
+        "title": "Ácido glicólico: saiba tudo sobre o nosso azulzinho - CREAMY",
+        "ecommerce": {
+          "currencyCode": "BRL",
+          "impressions": [
+            {
+              "brand": "Creamy",
+              "category": "Produtos/Combos",
+              "id": "621",
+              "variant": "232",
+              "list": "List of products",
+              "name": "Kit Antiacne",
+              "position": 1,
+              "price": "259.98",
+              "dimension1": "KIT.CMY.0008",
+              "dimension2": "KIT.CMY.0008",
+              "dimension3": "Kit Antiacne"
+            },
+            {
+              "brand": "Creamy",
+              "category": "Produtos/Antiacne",
+              "id": "2",
+              "variant": "2",
+              "list": "List of products",
+              "name": "Gel Clareador Antiacne - Ácido Mandélico",
+              "position": 2,
+              "price": "84.2",
+              "dimension1": "CR3",
+              "dimension2": "CMY.10.02.0004",
+              "dimension3": "Gel Clareador Antiacne - Ácido Mandélico"
+            },
+            {
+              "brand": "Creamy",
+              "category": "Produtos/Antiacne",
+              "id": "551",
+              "variant": "151",
+              "list": "List of products",
+              "name": "Sérum Antiacne Adapalenato",
+              "position": 3,
+              "price": "126.31",
+              "dimension1": "00CR23",
+              "dimension2": "CMY.07.02.0009",
+              "dimension3": "Sérum Antiacne Adapalenato"
+            },
+            {
+              "brand": "Creamy",
+              "category": "Produtos/Antiacne",
+              "id": "415",
+              "variant": "12",
+              "list": "List of products",
+              "name": "Tônico Antioleosidade - Ácido Salicílico",
+              "position": 4,
+              "price": "94.73",
+              "dimension1": "CR7",
+              "dimension2": "CMY.10.02.0008",
+              "dimension3": "Tônico Antioleosidade - Ácido Salicílico"
+            }
+          ]
+        },
+        "ecommerceV2": null
+      }
+    },
+    {
+      "step": 2,
+      "event": "productImpression",
+      "page_url": "https://www.creamy.com.br/acido-glicolico/p",
+      "dataLayer": {
+        "event": "productImpression",
+        "location": "https://www.creamy.com.br/?gtm_debug=1772122936632",
+        "page": "/?gtm_debug=1772122936632",
+        "referrer": "https://tagassistant.google.com/",
+        "title": "Creamy | Produtos de skincare para uma pele saudável",
+        "ecommerce": {
+          "currencyCode": "BRL",
+          "impressions": [
+            {
+              "brand": "Creamy",
+              "category": "Produtos/Combos",
+              "id": "621",
+              "variant": "232",
+              "list": "List of products",
+              "name": "Kit Antiacne",
+              "position": 1,
+              "price": "259.98",
+              "dimension1": "KIT.CMY.0008",
+              "dimension2": "KIT.CMY.0008",
+              "dimension3": "Kit Antiacne"
+            },
+            {
+              "brand": "Creamy",
+              "category": "Produtos/Antiacne",
+              "id": "2",
+              "variant": "2",
+              "list": "List of products",
+              "name": "Gel Clareador Antiacne - Ácido Mandélico",
+              "position": 2,
+              "price": "84.2",
+              "dimension1": "CR3",
+              "dimension2": "CMY.10.02.0004",
+              "dimension3": "Gel Clareador Antiacne - Ácido Mandélico"
+            },
+            {
+              "brand": "Creamy",
+              "category": "Produtos/Antiacne",
+              "id": "551",
+              "variant": "151",
+              "list": "List of products",
+              "name": "Sérum Antiacne Adapalenato",
+              "position": 3,
+              "price": "126.31",
+              "dimension1": "00CR23",
+              "dimension2": "CMY.07.02.0009",
+              "dimension3": "Sérum Antiacne Adapalenato"
+            },
+            {
+              "brand": "Creamy",
+              "category": "Produtos/Antiacne",
+              "id": "415",
+              "variant": "12",
+              "list": "List of products",
+              "name": "Tônico Antioleosidade - Ácido Salicílico",
+              "position": 4,
+              "price": "94.73",
+              "dimension1": "CR7",
+              "dimension2": "CMY.10.02.0008",
+              "dimension3": "Tônico Antioleosidade - Ácido Salicílico"
+            }
+          ]
+        },
+        "ecommerceV2": null
+      }
+    },
+    {
+      "step": 3,
+      "event": "productView",
+      "page_url": "https://www.creamy.com.br/acido-glicolico/p",
+      "dataLayer": {
+        "event": "productView",
+        "location": "https://www.creamy.com.br/acido-glicolico/p",
+        "page": "/acido-glicolico/p",
+        "referrer": "https://tagassistant.google.com/",
+        "title": "Ácido glicólico: saiba tudo sobre o nosso azulzinho - CREAMY",
+        "ecommerce": {
+          "currencyCode": "BRL",
+          "impressions": [
+            {
+              "brand": "Creamy",
+              "category": "Produtos/Combos",
+              "id": "621",
+              "variant": "232",
+              "list": "List of products",
+              "name": "Kit Antiacne",
+              "position": 1,
+              "price": "259.98",
+              "dimension1": "KIT.CMY.0008",
+              "dimension2": "KIT.CMY.0008",
+              "dimension3": "Kit Antiacne"
+            },
+            {
+              "brand": "Creamy",
+              "category": "Produtos/Antiacne",
+              "id": "2",
+              "variant": "2",
+              "list": "List of products",
+              "name": "Gel Clareador Antiacne - Ácido Mandélico",
+              "position": 2,
+              "price": "84.2",
+              "dimension1": "CR3",
+              "dimension2": "CMY.10.02.0004",
+              "dimension3": "Gel Clareador Antiacne - Ácido Mandélico"
+            },
+            {
+              "brand": "Creamy",
+              "category": "Produtos/Antiacne",
+              "id": "551",
+              "variant": "151",
+              "list": "List of products",
+              "name": "Sérum Antiacne Adapalenato",
+              "position": 3,
+              "price": "126.31",
+              "dimension1": "00CR23",
+              "dimension2": "CMY.07.02.0009",
+              "dimension3": "Sérum Antiacne Adapalenato"
+            },
+            {
+              "brand": "Creamy",
+              "category": "Produtos/Antiacne",
+              "id": "415",
+              "variant": "12",
+              "list": "List of products",
+              "name": "Tônico Antioleosidade - Ácido Salicílico",
+              "position": 4,
+              "price": "94.73",
+              "dimension1": "CR7",
+              "dimension2": "CMY.10.02.0008",
+              "dimension3": "Tônico Antioleosidade - Ácido Salicílico"
+            }
+          ]
+        },
+        "ecommerceV2": null,
+        "event_time": "2026-02-26T16:23:00.640Z"
+      }
+    },
+    {
+      "step": 4,
+      "event": "productDetail",
+      "page_url": "https://www.creamy.com.br/acido-glicolico/p",
+      "dataLayer": {
+        "event": "productDetail",
+        "location": "https://www.creamy.com.br/acido-glicolico/p",
+        "page": "/acido-glicolico/p",
+        "referrer": "https://tagassistant.google.com/",
+        "title": "Ácido glicólico: saiba tudo sobre o nosso azulzinho - CREAMY",
+        "ecommerce": {
+          "detail": {
+            "actionField": {
+              "list": "null"
+            },
+            "products": [
+              {
+                "brand": "Creamy",
+                "category": "Produtos/Anti-aging",
+                "id": "3",
+                "variant": "3",
+                "name": "Esfoliante Químico - Ácido Glicólico",
+                "dimension1": "CR2",
+                "dimension2": "CMY.10.02.0001",
+                "dimension3": "Esfoliante Químico - Ácido Glicólico",
+                "dimension4": "available",
+                "price": 84.2
+              }
+            ]
+          }
+        },
+        "ecommerceV2": null,
+        "event_time": "2026-02-26T16:23:02.123Z"
+      }
+    },
+    {
+      "step": 5,
+      "event": "addToCart",
+      "page_url": "https://www.creamy.com.br/acido-glicolico/p",
+      "dataLayer": {
+        "event": "addToCart",
+        "location": "https://www.creamy.com.br/acido-glicolico/p",
+        "page": "/acido-glicolico/p",
+        "referrer": "https://tagassistant.google.com/",
+        "title": "Ácido glicólico: saiba tudo sobre o nosso azulzinho - CREAMY",
+        "ecommerce": {
+          "add": {
+            "products": [
+              {
+                "brand": "Creamy",
+                "category": "Produtos/Anti-aging",
+                "id": "3",
+                "variant": "3",
+                "name": "Esfoliante Químico - Ácido Glicólico",
+                "price": "84.2",
+                "quantity": 1,
+                "dimension1": "CR2",
+                "dimension2": "CMY.10.02.0001",
+                "dimension3": "Esfoliante Químico - Ácido Glicólico"
+              }
+            ]
+          },
+          "currencyCode": "BRL"
+        },
+        "ecommerceV2": null,
+        "event_time": "2026-02-26T16:23:03.840Z"
+      }
+    },
+    {
+      "step": 6,
+      "event": "removeFromCart",
+      "page_url": "https://www.creamy.com.br/acido-glicolico/p",
+      "dataLayer": {
+        "event": "removeFromCart",
+        "location": "https://www.creamy.com.br/acido-glicolico/p",
+        "page": "/acido-glicolico/p",
+        "referrer": "https://tagassistant.google.com/",
+        "title": "Ácido glicólico: saiba tudo sobre o nosso azulzinho - CREAMY",
+        "ecommerce": {
+          "currencyCode": "BRL",
+          "remove": {
+            "products": [
+              {
+                "brand": "Creamy",
+                "category": "Produtos/Anti-aging",
+                "id": "3",
+                "variant": "3",
+                "name": "Esfoliante Químico - Ácido Glicólico",
+                "price": "79.99",
+                "quantity": 1,
+                "dimension1": "CR2",
+                "dimension2": "CMY.10.02.0001",
+                "dimension3": "Esfoliante Químico - Ácido Glicólico"
+              }
+            ]
+          }
+        },
+        "ecommerceV2": null,
+        "event_time": "2026-02-26T16:23:03.840Z"
+      }
+    },
+    {
+      "step": 7,
+      "event": "view_cart",
+      "page_url": "https://www.creamy.com.br/acido-glicolico/p",
+      "dataLayer": {
+        "event": "view_cart",
+        "location": "https://www.creamy.com.br/acido-glicolico/p",
+        "page": "/acido-glicolico/p",
+        "referrer": "https://tagassistant.google.com/",
+        "title": "Ácido glicólico: saiba tudo sobre o nosso azulzinho - CREAMY",
+        "ecommerce": {
+          "currency": "BRL",
+          "value": 79.99,
+          "items": [
+            {
+              "item_id": "3",
+              "item_brand": "Creamy",
+              "item_name": "Esfoliante Químico - Ácido Glicólico",
+              "item_variant": "3",
+              "quantity": 1,
+              "price": 79.99,
+              "item_category": "Produtos",
+              "item_category2": "Anti-aging",
+              "dimension1": "CR2",
+              "dimension2": "CMY.10.02.0001",
+              "dimension3": "Esfoliante Químico - Ácido Glicólico",
+              "dimension4": "available"
+            }
+          ]
+        },
+        "ecommerceV2": null,
+        "event_time": "2026-02-26T16:23:03.840Z"
+      }
+    },
+    {
+      "step": 8,
+      "event": "view_cart_enriched",
+      "page_url": "https://www.creamy.com.br/acido-glicolico/p",
+      "dataLayer": {
+        "event": "view_cart_enriched",
+        "location": "https://www.creamy.com.br/acido-glicolico/p",
+        "page": "/acido-glicolico/p",
+        "referrer": "https://tagassistant.google.com/",
+        "title": "Ácido glicólico: saiba tudo sobre o nosso azulzinho - CREAMY",
+        "ecommerce": {
+          "currency": "BRL",
+          "value": 79.99,
+          "items": [
+            {
+              "item_id": "3",
+              "item_brand": "Creamy",
+              "item_name": "Esfoliante Químico - Ácido Glicólico",
+              "item_variant": "3",
+              "quantity": 1,
+              "price": 79.99,
+              "item_category": "Produtos",
+              "item_category2": "Anti-aging",
+              "dimension1": "CR2",
+              "dimension2": "CMY.10.02.0001",
+              "dimension3": "Esfoliante Químico - Ácido Glicólico",
+              "dimension4": "available"
+            }
+          ]
+        },
+        "ecommerceV2": null,
+        "event_time": "2026-02-26T16:23:03.840Z"
+      }
+    },
+    {
+      "step": 9,
+      "event": "page_view",
+      "page_url": "https://www.creamy.com.br/acido-glicolico/p",
+      "dataLayer": {
+        "event": "page_view",
+        "page_location": "https://www.creamy.com.br/?gtm_debug=1772122936632",
+        "page_referrer": "https://tagassistant.google.com/",
+        "language": "pt-br",
+        "page_title": "Creamy | Produtos de skincare para uma pele saudável",
+        "client_id": "956289634.1772110335"
+      }
+    },
+    {
+      "step": 10,
+      "event": "view_cart",
+      "page_url": "https://www.creamy.com.br/checkout#/payment",
+      "dataLayer": {
+        "event": "view_cart",
+        "orderFormId": "2f7fb23d7a52485693411d6f206270dd",
+        "salesChannel": "1",
+        "ecommerce": {
+          "currency": "BRL",
+          "value": 90.44,
+          "items": [
+            {
+              "item_id": "3",
+              "item_name": "Esfoliante Químico - Ácido Glicólico",
+              "item_brand": "Creamy",
+              "item_variant": "3",
+              "price": 79.99,
+              "quantity": 1,
+              "dimension1": "CR2",
+              "dimension2": "CMY.10.02.0001",
+              "dimension3": "Esfoliante Químico - Ácido Glicólico",
+              "item_category": "Produtos",
+              "item_category2": "Anti-aging"
+            }
+          ]
+        },
+        "ecommerceV2": {
+          "ecommerce": {
+            "currency": "BRL",
+            "value": 90.44,
+            "items": [
+              {
+                "item_id": "3",
+                "item_name": "Esfoliante Químico - Ácido Glicólico",
+                "item_brand": "Creamy",
+                "item_variant": "3",
+                "price": 79.99,
+                "quantity": 1,
+                "dimension1": "CR2",
+                "dimension2": "CMY.10.02.0001",
+                "dimension3": "Esfoliante Químico - Ácido Glicólico",
+                "item_category": "Produtos",
+                "item_category2": "Anti-aging"
+              }
+            ]
+          }
+        },
+        "visitorType": "new customer",
+        "visitorContactInfo": [
+          "yanlahud@hotmail.com",
+          "yan",
+          "lahud"
+        ],
+        "visitorDemographicInfo": [
+          "24230-001",
+          "Avenida Jornalista Alberto Francisco Torres, 55 - Icaraí - 805 bl2 - Niterói - RJ"
+        ],
+        "visitorOptinNewsLetter": false,
+        "orderFormTax": null,
+        "orderFormShipping": 10.45,
+        "orderFormShippingMethod": [
+          "ESTOCA EXPRESSO ES"
+        ],
+        "orderFormPaymentType": "Pix",
+        "orderFormTotal": 9044,
+        "orderFormProducts": [
+          {
+            "id": "3",
+            "name": "Esfoliante Químico - Ácido Glicólico",
+            "sku": "3",
+            "skuName": "Esfoliante Químico - Ácido Glicólico",
+            "seller": "Creamy",
+            "sellerId": "1",
+            "brand": "Creamy",
+            "brandId": "1361753362",
+            "isGift": false,
+            "category": "Anti-aging",
+            "categoryId": "714441239",
+            "categoryTree": [
+              "Produtos",
+              "Anti-aging"
+            ],
+            "categoryIdTree": [
+              "1",
+              "714441239"
+            ],
+            "originalPrice": 84.2,
+            "price": 79.99,
+            "sellingPrice": 79.99,
+            "tax": 0,
+            "quantity": 1,
+            "components": [],
+            "measurementUnit": "un",
+            "unitMultiplier": 1
+          }
+        ]
+      }
+    },
+    {
+      "step": 11,
+      "event": "cart",
+      "page_url": "https://www.creamy.com.br/checkout#/payment",
+      "dataLayer": {
+        "event": "cart",
+        "orderFormId": "2f7fb23d7a52485693411d6f206270dd",
+        "salesChannel": "1",
+        "ecommerce": {
+          "checkout": {
+            "actionField": {
+              "step": 1
+            },
+            "products": [
+              {
+                "id": "3",
+                "name": "Esfoliante Químico - Ácido Glicólico",
+                "category": "Produtos/Anti-aging",
+                "brand": "Creamy",
+                "variant": "Esfoliante Químico - Ácido Glicólico",
+                "price": 79.99,
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        "ecommerceV2": {
+          "ecommerce": {
+            "checkout": {
+              "actionField": {
+                "step": 1
+              },
+              "products": [
+                {
+                  "id": "3",
+                  "variant": "3",
+                  "name": "Esfoliante Químico - Ácido Glicólico",
+                  "category": "Produtos/Anti-aging",
+                  "brand": "Creamy",
+                  "price": 79.99,
+                  "quantity": 1,
+                  "dimension1": "CR2",
+                  "dimension2": "CMY.10.02.0001",
+                  "dimension3": "Esfoliante Químico - Ácido Glicólico"
+                }
+              ]
+            }
+          }
+        },
+        "visitorType": "new customer",
+        "visitorContactInfo": [
+          "yanlahud@hotmail.com",
+          "yan",
+          "lahud"
+        ],
+        "visitorDemographicInfo": [
+          "24230-001",
+          "Avenida Jornalista Alberto Francisco Torres, 55 - Icaraí - 805 bl2 - Niterói - RJ"
+        ],
+        "visitorOptinNewsLetter": false,
+        "orderFormTax": null,
+        "orderFormShipping": 10.45,
+        "orderFormShippingMethod": [
+          "ESTOCA EXPRESSO ES"
+        ],
+        "orderFormPaymentType": "Pix",
+        "orderFormTotal": 9044,
+        "orderFormProducts": [
+          {
+            "id": "3",
+            "name": "Esfoliante Químico - Ácido Glicólico",
+            "sku": "3",
+            "skuName": "Esfoliante Químico - Ácido Glicólico",
+            "seller": "Creamy",
+            "sellerId": "1",
+            "brand": "Creamy",
+            "brandId": "1361753362",
+            "isGift": false,
+            "category": "Anti-aging",
+            "categoryId": "714441239",
+            "categoryTree": [
+              "Produtos",
+              "Anti-aging"
+            ],
+            "categoryIdTree": [
+              "1",
+              "714441239"
+            ],
+            "originalPrice": 84.2,
+            "price": 79.99,
+            "sellingPrice": 79.99,
+            "tax": 0,
+            "quantity": 1,
+            "components": [],
+            "measurementUnit": "un",
+            "unitMultiplier": 1
+          }
+        ]
+      }
+    },
+    {
+      "step": 12,
+      "event": "cartLoaded",
+      "page_url": "https://www.creamy.com.br/checkout#/payment",
+      "dataLayer": {
+        "event": "cartLoaded",
+        "orderFormId": "2f7fb23d7a52485693411d6f206270dd",
+        "salesChannel": "1",
+        "ecommerce": {
+          "checkout": {
+            "actionField": {
+              "step": 1
+            },
+            "products": [
+              {
+                "id": "3",
+                "name": "Esfoliante Químico - Ácido Glicólico",
+                "category": "Produtos/Anti-aging",
+                "brand": "Creamy",
+                "variant": "Esfoliante Químico - Ácido Glicólico",
+                "price": 79.99,
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        "ecommerceV2": {
+          "ecommerce": {
+            "checkout": {
+              "actionField": {
+                "step": 1
+              },
+              "products": [
+                {
+                  "id": "3",
+                  "variant": "3",
+                  "name": "Esfoliante Químico - Ácido Glicólico",
+                  "category": "Produtos/Anti-aging",
+                  "brand": "Creamy",
+                  "price": 79.99,
+                  "quantity": 1,
+                  "dimension1": "CR2",
+                  "dimension2": "CMY.10.02.0001",
+                  "dimension3": "Esfoliante Químico - Ácido Glicólico"
+                }
+              ]
+            }
+          }
+        },
+        "visitorType": "new customer",
+        "visitorContactInfo": [
+          "yanlahud@hotmail.com",
+          "yan",
+          "lahud"
+        ],
+        "visitorDemographicInfo": [
+          "24230-001",
+          "Avenida Jornalista Alberto Francisco Torres, 55 - Icaraí - 805 bl2 - Niterói - RJ"
+        ],
+        "visitorOptinNewsLetter": false,
+        "orderFormTax": null,
+        "orderFormShipping": 10.45,
+        "orderFormShippingMethod": [
+          "ESTOCA EXPRESSO ES"
+        ],
+        "orderFormPaymentType": "Pix",
+        "orderFormTotal": 9044,
+        "orderFormProducts": [
+          {
+            "id": "3",
+            "name": "Esfoliante Químico - Ácido Glicólico",
+            "sku": "3",
+            "skuName": "Esfoliante Químico - Ácido Glicólico",
+            "seller": "Creamy",
+            "sellerId": "1",
+            "brand": "Creamy",
+            "brandId": "1361753362",
+            "isGift": false,
+            "category": "Anti-aging",
+            "categoryId": "714441239",
+            "categoryTree": [
+              "Produtos",
+              "Anti-aging"
+            ],
+            "categoryIdTree": [
+              "1",
+              "714441239"
+            ],
+            "originalPrice": 84.2,
+            "price": 79.99,
+            "sellingPrice": 79.99,
+            "tax": 0,
+            "quantity": 1,
+            "components": [],
+            "measurementUnit": "un",
+            "unitMultiplier": 1
+          }
+        ]
+      }
+    },
+    {
+      "step": 13,
+      "event": "begin_checkout",
+      "page_url": "https://www.creamy.com.br/checkout#/payment",
+      "dataLayer": {
+        "event": "begin_checkout",
+        "orderFormId": "2f7fb23d7a52485693411d6f206270dd",
+        "salesChannel": "1",
+        "ecommerce": {
+          "currency": "BRL",
+          "value": 82.44,
+          "coupon": "PRIMEIRA10",
+          "items": [
+            {
+              "item_id": "3",
+              "item_name": "Esfoliante Químico - Ácido Glicólico",
+              "item_brand": "Creamy",
+              "item_variant": "3",
+              "price": 71.99,
+              "quantity": 1,
+              "dimension1": "CR2",
+              "dimension2": "CMY.10.02.0001",
+              "dimension3": "Esfoliante Químico - Ácido Glicólico",
+              "item_category": "Produtos",
+              "item_category2": "Anti-aging"
+            }
+          ]
+        },
+        "ecommerceV2": {
+          "ecommerce": {
+            "currency": "BRL",
+            "value": 82.44,
+            "coupon": "PRIMEIRA10",
+            "items": [
+              {
+                "item_id": "3",
+                "item_name": "Esfoliante Químico - Ácido Glicólico",
+                "item_brand": "Creamy",
+                "item_variant": "3",
+                "price": 71.99,
+                "quantity": 1,
+                "dimension1": "CR2",
+                "dimension2": "CMY.10.02.0001",
+                "dimension3": "Esfoliante Químico - Ácido Glicólico",
+                "item_category": "Produtos",
+                "item_category2": "Anti-aging"
+              }
+            ]
+          }
+        },
+        "visitorType": "new customer",
+        "visitorContactInfo": [
+          "yanlahud@hotmail.com",
+          "yan",
+          "lahud"
+        ],
+        "visitorDemographicInfo": [
+          "24230-001",
+          "Avenida Jornalista Alberto Francisco Torres, 55 - Icaraí - 805 bl2 - Niterói - RJ"
+        ],
+        "visitorOptinNewsLetter": false,
+        "orderFormTax": null,
+        "orderFormShipping": 10.45,
+        "orderFormShippingMethod": [
+          "ESTOCA EXPRESSO ES"
+        ],
+        "orderFormPaymentType": "Pix",
+        "orderFormTotal": 9044,
+        "orderFormProducts": [
+          {
+            "id": "3",
+            "name": "Esfoliante Químico - Ácido Glicólico",
+            "sku": "3",
+            "skuName": "Esfoliante Químico - Ácido Glicólico",
+            "seller": "Creamy",
+            "sellerId": "1",
+            "brand": "Creamy",
+            "brandId": "1361753362",
+            "isGift": false,
+            "category": "Anti-aging",
+            "categoryId": "714441239",
+            "categoryTree": [
+              "Produtos",
+              "Anti-aging"
+            ],
+            "categoryIdTree": [
+              "1",
+              "714441239"
+            ],
+            "originalPrice": 84.2,
+            "price": 79.99,
+            "sellingPrice": 79.99,
+            "tax": 0,
+            "quantity": 1,
+            "components": [],
+            "measurementUnit": "un",
+            "unitMultiplier": 1
+          }
+        ]
+      }
+    },
+    {
+      "step": 14,
+      "event": "begin_checkout_enriched",
+      "page_url": "https://www.creamy.com.br/checkout#/payment",
+      "dataLayer": {
+        "event": "begin_checkout_enriched",
+        "orderFormId": "2f7fb23d7a52485693411d6f206270dd",
+        "salesChannel": "1",
+        "ecommerce": {
+          "currency": "BRL",
+          "value": 82.44,
+          "coupon": "PRIMEIRA10",
+          "items": [
+            {
+              "item_id": "3",
+              "item_name": "Esfoliante Químico - Ácido Glicólico",
+              "item_brand": "Creamy",
+              "item_variant": "3",
+              "price": 71.99,
+              "quantity": 1,
+              "dimension1": "CR2",
+              "dimension2": "CMY.10.02.0001",
+              "dimension3": "Esfoliante Químico - Ácido Glicólico",
+              "item_category": "Produtos",
+              "item_category2": "Anti-aging"
+            }
+          ]
+        },
+        "ecommerceV2": {
+          "ecommerce": {
+            "currency": "BRL",
+            "value": 82.44,
+            "coupon": "PRIMEIRA10",
+            "items": [
+              {
+                "item_id": "3",
+                "item_name": "Esfoliante Químico - Ácido Glicólico",
+                "item_brand": "Creamy",
+                "item_variant": "3",
+                "price": 71.99,
+                "quantity": 1,
+                "dimension1": "CR2",
+                "dimension2": "CMY.10.02.0001",
+                "dimension3": "Esfoliante Químico - Ácido Glicólico",
+                "item_category": "Produtos",
+                "item_category2": "Anti-aging"
+              }
+            ]
+          }
+        },
+        "visitorType": "new customer",
+        "visitorContactInfo": [
+          "yanlahud@hotmail.com",
+          "yan",
+          "lahud"
+        ],
+        "visitorDemographicInfo": [
+          "24230-001",
+          "Avenida Jornalista Alberto Francisco Torres, 55 - Icaraí - 805 bl2 - Niterói - RJ"
+        ],
+        "visitorOptinNewsLetter": false,
+        "orderFormTax": null,
+        "orderFormShipping": 10.45,
+        "orderFormShippingMethod": [
+          "ESTOCA EXPRESSO ES"
+        ],
+        "orderFormPaymentType": "Pix",
+        "orderFormTotal": 9044,
+        "orderFormProducts": [
+          {
+            "id": "3",
+            "name": "Esfoliante Químico - Ácido Glicólico",
+            "sku": "3",
+            "skuName": "Esfoliante Químico - Ácido Glicólico",
+            "seller": "Creamy",
+            "sellerId": "1",
+            "brand": "Creamy",
+            "brandId": "1361753362",
+            "isGift": false,
+            "category": "Anti-aging",
+            "categoryId": "714441239",
+            "categoryTree": [
+              "Produtos",
+              "Anti-aging"
+            ],
+            "categoryIdTree": [
+              "1",
+              "714441239"
+            ],
+            "originalPrice": 84.2,
+            "price": 79.99,
+            "sellingPrice": 79.99,
+            "tax": 0,
+            "quantity": 1,
+            "components": [],
+            "measurementUnit": "un",
+            "unitMultiplier": 1
+          }
+        ]
+      }
+    },
+    {
+      "step": 15,
+      "event": "add_shipping_info",
+      "page_url": "https://www.creamy.com.br/checkout#/payment",
+      "dataLayer": {
+        "event": "add_shipping_info",
+        "orderFormId": "2f7fb23d7a52485693411d6f206270dd",
+        "salesChannel": "1",
+        "campaignName": null,
+        "campaignSource": null,
+        "campaignMedium": null,
+        "internalCampaignName": null,
+        "internalCampaignPart": null,
+        "ecommerce": {
+          "currency": "BRL",
+          "value": 82.44,
+          "coupon": "PRIMEIRA10",
+          "shipping_tier": "ESTOCA EXPRESSO ES",
+          "items": [
+            {
+              "item_id": "3",
+              "item_name": "Esfoliante Químico - Ácido Glicólico",
+              "item_brand": "Creamy",
+              "item_variant": "3",
+              "price": 71.99,
+              "quantity": 1,
+              "dimension1": "CR2",
+              "dimension2": "CMY.10.02.0001",
+              "dimension3": "Esfoliante Químico - Ácido Glicólico",
+              "item_category": "Produtos",
+              "item_category2": "Anti-aging"
+            }
+          ]
+        },
+        "ecommerceV2": {
+          "ecommerce": {
+            "currency": "BRL",
+            "value": 82.44,
+            "coupon": "PRIMEIRA10",
+            "shipping_tier": "ESTOCA EXPRESSO ES",
+            "items": [
+              {
+                "item_id": "3",
+                "item_name": "Esfoliante Químico - Ácido Glicólico",
+                "item_brand": "Creamy",
+                "item_variant": "3",
+                "price": 71.99,
+                "quantity": 1,
+                "dimension1": "CR2",
+                "dimension2": "CMY.10.02.0001",
+                "dimension3": "Esfoliante Químico - Ácido Glicólico",
+                "item_category": "Produtos",
+                "item_category2": "Anti-aging"
+              }
+            ]
+          }
+        },
+        "visitorType": "new customer",
+        "visitorContactInfo": [
+          "yanlahud@hotmail.com",
+          "yan",
+          "lahud"
+        ],
+        "visitorDemographicInfo": [
+          "24230-001",
+          "Avenida Jornalista Alberto Francisco Torres, 55 - Icaraí - 805 bl2 - Niterói - RJ"
+        ],
+        "visitorOptinNewsLetter": false,
+        "orderFormTax": null,
+        "orderFormShipping": 10.45,
+        "orderFormShippingMethod": [
+          "ESTOCA EXPRESSO ES"
+        ],
+        "orderFormPromoCode": "PRIMEIRA10",
+        "orderFormPaymentType": "Pix",
+        "orderFormTotal": 8244,
+        "orderFormProducts": [
+          {
+            "id": "3",
+            "name": "Esfoliante Químico - Ácido Glicólico",
+            "sku": "3",
+            "skuName": "Esfoliante Químico - Ácido Glicólico",
+            "seller": "Creamy",
+            "sellerId": "1",
+            "brand": "Creamy",
+            "brandId": "1361753362",
+            "isGift": false,
+            "category": "Anti-aging",
+            "categoryId": "714441239",
+            "categoryTree": [
+              "Produtos",
+              "Anti-aging"
+            ],
+            "categoryIdTree": [
+              "1",
+              "714441239"
+            ],
+            "originalPrice": 84.2,
+            "price": 71.99,
+            "sellingPrice": 71.99,
+            "tax": 0,
+            "quantity": 1,
+            "components": [],
+            "measurementUnit": "un",
+            "unitMultiplier": 1
+          }
+        ]
+      }
+    },
+    {
+      "step": 16,
+      "event": "add_shipping_info_enriched",
+      "page_url": "https://www.creamy.com.br/checkout#/payment",
+      "dataLayer": {
+        "event": "add_shipping_info_enriched",
+        "orderFormId": "2f7fb23d7a52485693411d6f206270dd",
+        "salesChannel": "1",
+        "campaignName": null,
+        "campaignSource": null,
+        "campaignMedium": null,
+        "internalCampaignName": null,
+        "internalCampaignPart": null,
+        "ecommerce": {
+          "currency": "BRL",
+          "value": 82.44,
+          "coupon": "PRIMEIRA10",
+          "shipping_tier": "ESTOCA EXPRESSO ES",
+          "items": [
+            {
+              "item_id": "3",
+              "item_name": "Esfoliante Químico - Ácido Glicólico",
+              "item_brand": "Creamy",
+              "item_variant": "3",
+              "price": 71.99,
+              "quantity": 1,
+              "dimension1": "CR2",
+              "dimension2": "CMY.10.02.0001",
+              "dimension3": "Esfoliante Químico - Ácido Glicólico",
+              "item_category": "Produtos",
+              "item_category2": "Anti-aging"
+            }
+          ]
+        },
+        "ecommerceV2": {
+          "ecommerce": {
+            "currency": "BRL",
+            "value": 82.44,
+            "coupon": "PRIMEIRA10",
+            "shipping_tier": "ESTOCA EXPRESSO ES",
+            "items": [
+              {
+                "item_id": "3",
+                "item_name": "Esfoliante Químico - Ácido Glicólico",
+                "item_brand": "Creamy",
+                "item_variant": "3",
+                "price": 71.99,
+                "quantity": 1,
+                "dimension1": "CR2",
+                "dimension2": "CMY.10.02.0001",
+                "dimension3": "Esfoliante Químico - Ácido Glicólico",
+                "item_category": "Produtos",
+                "item_category2": "Anti-aging"
+              }
+            ]
+          }
+        },
+        "visitorType": "new customer",
+        "visitorContactInfo": [
+          "yanlahud@hotmail.com",
+          "yan",
+          "lahud"
+        ],
+        "visitorDemographicInfo": [
+          "24230-001",
+          "Avenida Jornalista Alberto Francisco Torres, 55 - Icaraí - 805 bl2 - Niterói - RJ"
+        ],
+        "visitorOptinNewsLetter": false,
+        "orderFormTax": null,
+        "orderFormShipping": 10.45,
+        "orderFormShippingMethod": [
+          "ESTOCA EXPRESSO ES"
+        ],
+        "orderFormPromoCode": "PRIMEIRA10",
+        "orderFormPaymentType": "Pix",
+        "orderFormTotal": 8244,
+        "orderFormProducts": [
+          {
+            "id": "3",
+            "name": "Esfoliante Químico - Ácido Glicólico",
+            "sku": "3",
+            "skuName": "Esfoliante Químico - Ácido Glicólico",
+            "seller": "Creamy",
+            "sellerId": "1",
+            "brand": "Creamy",
+            "brandId": "1361753362",
+            "isGift": false,
+            "category": "Anti-aging",
+            "categoryId": "714441239",
+            "categoryTree": [
+              "Produtos",
+              "Anti-aging"
+            ],
+            "categoryIdTree": [
+              "1",
+              "714441239"
+            ],
+            "originalPrice": 84.2,
+            "price": 71.99,
+            "sellingPrice": 71.99,
+            "tax": 0,
+            "quantity": 1,
+            "components": [],
+            "measurementUnit": "un",
+            "unitMultiplier": 1
+          }
+        ]
+      }
+    },
+    {
+      "step": 17,
+      "event": "add_payment_info",
+      "page_url": "https://www.creamy.com.br/checkout#/payment",
+      "dataLayer": {
+        "event": "add_payment_info",
+        "orderFormId": "2f7fb23d7a52485693411d6f206270dd",
+        "salesChannel": "1",
+        "campaignName": null,
+        "campaignSource": null,
+        "campaignMedium": null,
+        "internalCampaignName": null,
+        "internalCampaignPart": null,
+        "ecommerce": {
+          "currency": "BRL",
+          "value": 86.23,
+          "coupon": "PRIMEIRA10",
+          "payment_type": "creditCardPaymentGroup",
+          "items": [
+            {
+              "item_id": "3",
+              "item_name": "Esfoliante Químico - Ácido Glicólico",
+              "item_brand": "Creamy",
+              "item_variant": "3",
+              "price": 75.78,
+              "quantity": 1,
+              "dimension1": "CR2",
+              "dimension2": "CMY.10.02.0001",
+              "dimension3": "Esfoliante Químico - Ácido Glicólico",
+              "item_category": "Produtos",
+              "item_category2": "Anti-aging"
+            }
+          ]
+        },
+        "ecommerceV2": {
+          "ecommerce": {
+            "currency": "BRL",
+            "value": 86.23,
+            "coupon": "PRIMEIRA10",
+            "payment_type": "creditCardPaymentGroup",
+            "items": [
+              {
+                "item_id": "3",
+                "item_name": "Esfoliante Químico - Ácido Glicólico",
+                "item_brand": "Creamy",
+                "item_variant": "3",
+                "price": 75.78,
+                "quantity": 1,
+                "dimension1": "CR2",
+                "dimension2": "CMY.10.02.0001",
+                "dimension3": "Esfoliante Químico - Ácido Glicólico",
+                "item_category": "Produtos",
+                "item_category2": "Anti-aging"
+              }
+            ]
+          }
+        },
+        "visitorType": "new customer",
+        "visitorContactInfo": [
+          "yanlahud@hotmail.com",
+          "yan",
+          "lahud"
+        ],
+        "visitorDemographicInfo": [
+          "24230-001",
+          "Avenida Jornalista Alberto Francisco Torres, 55 - Icaraí - 805 bl2 - Niterói - RJ"
+        ],
+        "visitorOptinNewsLetter": false,
+        "orderFormTax": null,
+        "orderFormShipping": 10.45,
+        "orderFormShippingMethod": [
+          "ESTOCA EXPRESSO ES"
+        ],
+        "orderFormPromoCode": "PRIMEIRA10",
+        "orderFormPaymentType": "Pix",
+        "orderFormTotal": 8244,
+        "orderFormProducts": [
+          {
+            "id": "3",
+            "name": "Esfoliante Químico - Ácido Glicólico",
+            "sku": "3",
+            "skuName": "Esfoliante Químico - Ácido Glicólico",
+            "seller": "Creamy",
+            "sellerId": "1",
+            "brand": "Creamy",
+            "brandId": "1361753362",
+            "isGift": false,
+            "category": "Anti-aging",
+            "categoryId": "714441239",
+            "categoryTree": [
+              "Produtos",
+              "Anti-aging"
+            ],
+            "categoryIdTree": [
+              "1",
+              "714441239"
+            ],
+            "originalPrice": 84.2,
+            "price": 71.99,
+            "sellingPrice": 71.99,
+            "tax": 0,
+            "quantity": 1,
+            "components": [],
+            "measurementUnit": "un",
+            "unitMultiplier": 1
+          }
+        ]
+      }
+    },
+    {
+      "step": 18,
+      "event": "add_payment_info_enriched",
+      "page_url": "https://www.creamy.com.br/checkout#/payment",
+      "dataLayer": {
+        "event": "add_payment_info_enriched",
+        "orderFormId": "2f7fb23d7a52485693411d6f206270dd",
+        "salesChannel": "1",
+        "campaignName": null,
+        "campaignSource": null,
+        "campaignMedium": null,
+        "internalCampaignName": null,
+        "internalCampaignPart": null,
+        "ecommerce": {
+          "currency": "BRL",
+          "value": 86.23,
+          "coupon": "PRIMEIRA10",
+          "payment_type": "creditCardPaymentGroup",
+          "items": [
+            {
+              "item_id": "3",
+              "item_name": "Esfoliante Químico - Ácido Glicólico",
+              "item_brand": "Creamy",
+              "item_variant": "3",
+              "price": 75.78,
+              "quantity": 1,
+              "dimension1": "CR2",
+              "dimension2": "CMY.10.02.0001",
+              "dimension3": "Esfoliante Químico - Ácido Glicólico",
+              "item_category": "Produtos",
+              "item_category2": "Anti-aging"
+            }
+          ]
+        },
+        "ecommerceV2": {
+          "ecommerce": {
+            "currency": "BRL",
+            "value": 86.23,
+            "coupon": "PRIMEIRA10",
+            "payment_type": "creditCardPaymentGroup",
+            "items": [
+              {
+                "item_id": "3",
+                "item_name": "Esfoliante Químico - Ácido Glicólico",
+                "item_brand": "Creamy",
+                "item_variant": "3",
+                "price": 75.78,
+                "quantity": 1,
+                "dimension1": "CR2",
+                "dimension2": "CMY.10.02.0001",
+                "dimension3": "Esfoliante Químico - Ácido Glicólico",
+                "item_category": "Produtos",
+                "item_category2": "Anti-aging"
+              }
+            ]
+          }
+        },
+        "visitorType": "new customer",
+        "visitorContactInfo": [
+          "yanlahud@hotmail.com",
+          "yan",
+          "lahud"
+        ],
+        "visitorDemographicInfo": [
+          "24230-001",
+          "Avenida Jornalista Alberto Francisco Torres, 55 - Icaraí - 805 bl2 - Niterói - RJ"
+        ],
+        "visitorOptinNewsLetter": false,
+        "orderFormTax": null,
+        "orderFormShipping": 10.45,
+        "orderFormShippingMethod": [
+          "ESTOCA EXPRESSO ES"
+        ],
+        "orderFormPromoCode": "PRIMEIRA10",
+        "orderFormPaymentType": "Pix",
+        "orderFormTotal": 8244,
+        "orderFormProducts": [
+          {
+            "id": "3",
+            "name": "Esfoliante Químico - Ácido Glicólico",
+            "sku": "3",
+            "skuName": "Esfoliante Químico - Ácido Glicólico",
+            "seller": "Creamy",
+            "sellerId": "1",
+            "brand": "Creamy",
+            "brandId": "1361753362",
+            "isGift": false,
+            "category": "Anti-aging",
+            "categoryId": "714441239",
+            "categoryTree": [
+              "Produtos",
+              "Anti-aging"
+            ],
+            "categoryIdTree": [
+              "1",
+              "714441239"
+            ],
+            "originalPrice": 84.2,
+            "price": 71.99,
+            "sellingPrice": 71.99,
+            "tax": 0,
+            "quantity": 1,
+            "components": [],
+            "measurementUnit": "un",
+            "unitMultiplier": 1
+          }
+        ]
+      }
+    },
+    {
+      "step": 19,
+      "event": "payment",
+      "page_url": "https://www.creamy.com.br/checkout#/payment",
+      "dataLayer": {
+        "event": "payment",
+        "orderFormId": "2f7fb23d7a52485693411d6f206270dd",
+        "salesChannel": "1",
+        "campaignName": null,
+        "campaignSource": null,
+        "campaignMedium": null,
+        "internalCampaignName": null,
+        "internalCampaignPart": null,
+        "ecommerce": {
+          "currency": "BRL",
+          "value": 82.44,
+          "coupon": "PRIMEIRA10",
+          "items": [
+            {
+              "item_id": "3",
+              "item_name": "Esfoliante Químico - Ácido Glicólico",
+              "item_brand": "Creamy",
+              "item_variant": "3",
+              "price": 71.99,
+              "quantity": 1,
+              "dimension1": "CR2",
+              "dimension2": "CMY.10.02.0001",
+              "dimension3": "Esfoliante Químico - Ácido Glicólico",
+              "item_category": "Produtos",
+              "item_category2": "Anti-aging"
+            }
+          ],
+          "checkout": {
+            "actionField": {
+              "step": 5
+            },
+            "products": [
+              {
+                "id": "3",
+                "name": "Esfoliante Químico - Ácido Glicólico",
+                "category": "Produtos/Anti-aging",
+                "brand": "Creamy",
+                "variant": "Esfoliante Químico - Ácido Glicólico",
+                "price": 71.99,
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        "ecommerceV2": {
+          "ecommerce": {
+            "currency": "BRL",
+            "value": 82.44,
+            "coupon": "PRIMEIRA10",
+            "items": [
+              {
+                "item_id": "3",
+                "item_name": "Esfoliante Químico - Ácido Glicólico",
+                "item_brand": "Creamy",
+                "item_variant": "3",
+                "price": 71.99,
+                "quantity": 1,
+                "dimension1": "CR2",
+                "dimension2": "CMY.10.02.0001",
+                "dimension3": "Esfoliante Químico - Ácido Glicólico",
+                "item_category": "Produtos",
+                "item_category2": "Anti-aging"
+              }
+            ],
+            "checkout": {
+              "actionField": {
+                "step": 5
+              },
+              "products": [
+                {
+                  "id": "3",
+                  "variant": "3",
+                  "name": "Esfoliante Químico - Ácido Glicólico",
+                  "category": "Produtos/Anti-aging",
+                  "brand": "Creamy",
+                  "price": 71.99,
+                  "quantity": 1,
+                  "dimension1": "CR2",
+                  "dimension2": "CMY.10.02.0001",
+                  "dimension3": "Esfoliante Químico - Ácido Glicólico"
+                }
+              ]
+            }
+          }
+        },
+        "visitorType": "new customer",
+        "visitorContactInfo": [
+          "yanlahud@hotmail.com",
+          "yan",
+          "lahud"
+        ],
+        "visitorDemographicInfo": [
+          "24230-001",
+          "Avenida Jornalista Alberto Francisco Torres, 55 - Icaraí - 805 bl2 - Niterói - RJ"
+        ],
+        "visitorOptinNewsLetter": false,
+        "orderFormTax": null,
+        "orderFormShipping": 10.45,
+        "orderFormShippingMethod": [
+          "ESTOCA EXPRESSO ES"
+        ],
+        "orderFormPromoCode": "PRIMEIRA10",
+        "orderFormPaymentType": "Pix",
+        "orderFormTotal": 8244,
+        "orderFormProducts": [
+          {
+            "id": "3",
+            "name": "Esfoliante Químico - Ácido Glicólico",
+            "sku": "3",
+            "skuName": "Esfoliante Químico - Ácido Glicólico",
+            "seller": "Creamy",
+            "sellerId": "1",
+            "brand": "Creamy",
+            "brandId": "1361753362",
+            "isGift": false,
+            "category": "Anti-aging",
+            "categoryId": "714441239",
+            "categoryTree": [
+              "Produtos",
+              "Anti-aging"
+            ],
+            "categoryIdTree": [
+              "1",
+              "714441239"
+            ],
+            "originalPrice": 84.2,
+            "price": 71.99,
+            "sellingPrice": 71.99,
+            "tax": 0,
+            "quantity": 1,
+            "components": [],
+            "measurementUnit": "un",
+            "unitMultiplier": 1
+          }
+        ]
+      }
+    },
+    {
+      "step": 20,
+      "event": "page_view",
+      "page_url": "https://www.creamy.com.br/checkout#/payment",
+      "dataLayer": {
+        "event": "page_view",
+        "page_location": "https://www.creamy.com.br/checkout",
+        "page_path": "/checkout#/payment",
+        "language": "pt-br",
+        "page_title": "Creamy - Finalizar compra",
+        "client_id": "956289634.1772110335"
+      }
+    },
+    {
+      "step": 21,
+      "event": "pageView",
+      "page_url": "https://www.creamy.com.br/checkout/orderPlaced/?og=1613606208509",
+      "dataLayer": {
+        "event": "pageView",
+        "location": "https://www.creamy.com.br/checkout/orderPlaced/?og=1613606208509",
+        "page": "/checkout/orderPlaced/?og=1613606208509",
+        "title": "Creamy Skincare| Produtos, Rotinas e Kits para uma Pele Saudável"
+      }
+    },
+    {
+      "step": 22,
+      "event": "orderPlaced",
+      "page_url": "https://www.creamy.com.br/checkout/orderPlaced/?og=1613606208509",
+      "dataLayer": {
+        "event": "orderPlaced",
+        "location": "https://www.creamy.com.br/checkout/orderPlaced/?og=1613606208509",
+        "page": "/checkout/orderPlaced/?og=1613606208509",
+        "title": "Creamy Skincare| Produtos, Rotinas e Kits para uma Pele Saudável",
+        "ecommerce": {
+          "purchase": {
+            "event_time": "2026-02-26T16:25:16.631Z",
+            "actionField": {
+              "affiliation": "Creamy",
+              "coupon": "PRIMEIRA10",
+              "id": "1613606208509",
+              "revenue": 86.23,
+              "shipping": 10.45,
+              "tax": 0
+            },
+            "products": [
+              {
+                "brand": "Creamy",
+                "category": "Produtos/Anti-aging",
+                "id": "3",
+                "variant": "3",
+                "name": "Esfoliante Químico - Ácido Glicólico",
+                "price": 75.78,
+                "quantity": 1,
+                "dimension1": "CR2",
+                "dimension2": "CMY.10.02.0001",
+                "dimension3": "Esfoliante Químico - Ácido Glicólico"
+              }
+            ]
+          }
+        },
+        "ecommerceV2": {
+          "ecommerce": {
+            "purchase": {
+              "event_time": "2026-02-26T16:25:16.631Z",
+              "actionField": {
+                "affiliation": "Creamy",
+                "coupon": "PRIMEIRA10",
+                "id": "1613606208509",
+                "revenue": 86.23,
+                "shipping": 10.45,
+                "tax": 0
+              },
+              "products": [
+                {
+                  "brand": "Creamy",
+                  "category": "Produtos/Anti-aging",
+                  "id": "3",
+                  "variant": "3",
+                  "name": "Esfoliante Químico - Ácido Glicólico",
+                  "price": 75.78,
+                  "quantity": 1,
+                  "dimension1": "CR2",
+                  "dimension2": "CMY.10.02.0001",
+                  "dimension3": "Esfoliante Químico - Ácido Glicólico"
+                }
+              ]
+            }
+          }
+        },
+        "currency": "BRL",
+        "eventName": "vtex:orderPlaced",
+        "accountName": "creamy",
+        "orderGroup": "1613606208509",
+        "ordersInOrderGroup": [
+          "1613606208509-01"
+        ],
+        "salesChannel": "1",
+        "coupon": "PRIMEIRA10",
+        "campaignName": null,
+        "campaignSource": null,
+        "campaignMedium": null,
+        "internalCampaignName": null,
+        "internalCampaignPage": null,
+        "internalCampaignPart": null,
+        "visitorOptinNewsletter": false,
+        "corporateName": null,
+        "visitorContactPhone": "+5521984009502",
+        "visitorContactInfo": [
+          "yanlahud@hotmail.com",
+          "yan",
+          "lahud"
+        ],
+        "visitorAddressState": "RJ",
+        "visitorAddressCountry": "BRA",
+        "visitorAddressPostalCode": "24230-001",
+        "visitorAddressCity": "Niterói",
+        "visitorAddressStreet": "Avenida Jornalista Alberto Francisco Torres",
+        "visitorAddressNumber": "55",
+        "visitorAddressNeighborhood": "Icaraí",
+        "visitorAddresssComplement": "805 bl2",
+        "transactionId": "1613606208509",
+        "transactionDate": "2026-02-26T16:25:06.0393096Z",
+        "openTextField": null,
+        "transactionAffiliation": "Creamy",
+        "transactionTotal": 86.23,
+        "transactionShipping": 10.45,
+        "transactionSubtotal": 84.2,
+        "transactionDiscounts": -8.42,
+        "transactionTax": 0,
+        "transactionCustomTaxes": {},
+        "transactionCurrency": "BRL",
+        "transactionPaymentType": [
+          {
+            "group": "creditCard",
+            "paymentSystemName": "Visa",
+            "installments": 1,
+            "value": 8623
+          }
+        ],
+        "transactionShippingMethod": [
+          {
+            "selectedSla": "ESTOCA EXPRESSO ES",
+            "itemId": "3"
+          }
+        ],
+        "transactionLatestShippingEstimate": "2026-03-09T16:22:00+00:00",
+        "transactionProducts": [
+          {
+            "id": "3",
+            "name": "Esfoliante Químico - Ácido Glicólico",
+            "sku": "3",
+            "skuRefId": "CMY.10.02.0001",
+            "productRefId": "CR2",
+            "ean": "7898965429058",
+            "skuName": "Esfoliante Químico - Ácido Glicólico",
+            "attachments": [],
+            "slug": "acido-glicolico",
+            "brand": "Creamy",
+            "brandId": "1361753362",
+            "seller": "Creamy",
+            "sellerId": "1",
+            "category": "Anti-aging",
+            "categoryId": "714441239",
+            "categoryTree": [
+              "Produtos",
+              "Anti-aging"
+            ],
+            "categoryIdTree": [
+              "1",
+              "714441239"
+            ],
+            "priceTags": [
+              {
+                "identifier": "3c29eb7b-b2db-4ff5-be8e-9b48474f922f",
+                "isPercentual": false,
+                "value": -8.42
+              }
+            ],
+            "originalPrice": 84.2,
+            "price": 75.78,
+            "sellingPrice": 75.78,
+            "tax": 0,
+            "quantity": 1,
+            "components": [],
+            "measurementUnit": "un",
+            "unitMultiplier": 1
+          }
+        ],
+        "transactionPayment": {
+          "id": "ED2C8EC926254C94A47965284830BD1F"
+        },
+        "event_time": "2026-02-26T16:25:16.631Z"
+      }
+    },
+    {
+      "step": 23,
+      "event": "purchase",
+      "page_url": "https://www.creamy.com.br/checkout/orderPlaced/?og=1613606208509",
+      "dataLayer": {
+        "event": "purchase",
+        "page_location": "https://www.creamy.com.br/checkout/orderPlaced/?og=1613606208509",
+        "language": "pt-br",
+        "page_title": "Pedido confirmado",
+        "client_id": "956289634.1772110335",
+        "transaction_id": "1613606208509",
+        "affiliation": "Creamy",
+        "shipping": "10.45",
+        "value": "86.23"
+      }
+    },
+    {
+      "step": 24,
+      "event": "page_view",
+      "page_url": "https://www.creamy.com.br/checkout/orderPlaced/?og=1613606208509",
+      "dataLayer": {
+        "event": "page_view",
+        "page_location": "https://www.creamy.com.br/checkout/orderPlaced/?og=1613606208509",
+        "language": "pt-br",
+        "page_title": "Pedido confirmado",
+        "client_id": "956289634.1772110335"
+      }
+    }
+  ]
+}
