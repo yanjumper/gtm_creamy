@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2026-02-28 21:30:24",
+    "exportTime": "2026-03-01 16:57:29",
     "containerVersion": {
         "path": "accounts/6331915366/containers/239514513/versions/0",
         "accountId": "6331915366",
@@ -2508,7 +2508,7 @@
                         "value": "{{g - event settings}}"
                     }
                 ],
-                "fingerprint": "1772132655584",
+                "fingerprint": "1772370585883",
                 "firingTriggerId": [
                     "890"
                 ],
@@ -2651,7 +2651,7 @@
                         "value": "false"
                     }
                 ],
-                "fingerprint": "1772137873507",
+                "fingerprint": "1772370585885",
                 "firingTriggerId": [
                     "1237"
                 ],
@@ -7584,6 +7584,51 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "parameter",
+                                        "value": "x-fb-ud-ph"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{cjs - SHA256 Hash Phone (hex)}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "x-fb-ud-st"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{cjs - SHA256 Hash State (hex)}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "x-fb-ud-ct"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{cjs - SHA256 Hash City (hex)}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
                                         "value": "x-fb-ck-fbc"
                                     },
                                     {
@@ -7641,7 +7686,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1770813378642",
+                "fingerprint": "1772325584367",
                 "parentFolderId": "1022"
             },
             {
@@ -10103,6 +10148,138 @@
                 ],
                 "fingerprint": "1771956624015",
                 "parentFolderId": "1020"
+            },
+            {
+                "accountId": "6331915366",
+                "containerId": "239514513",
+                "variableId": "1311",
+                "name": "dlv - visitorContactPhone",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "visitorContactPhone"
+                    }
+                ],
+                "fingerprint": "1772325584332",
+                "parentFolderId": "1022",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6331915366",
+                "containerId": "239514513",
+                "variableId": "1312",
+                "name": "cjs - SHA256 Hash Phone (hex)",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\nfunction sha256hex(ascii) {\n  function rightRotate(value, amount) { return (value>>>amount) | (value<<(32-amount)); }\n  var mathPow = Math.pow; var maxWord = mathPow(2, 32);\n  var lengthProperty = 'length';\n  var i, j; var result = '';\n\n  var words = [];\n  var asciiBitLength = ascii[lengthProperty]*8;\n\n  var hash = sha256hex.h = sha256hex.h || [];\n  var k = sha256hex.k = sha256hex.k || [];\n  var primeCounter = k[lengthProperty];\n  var isComposite = {};\n  for (var candidate = 2; primeCounter < 64; candidate++) {\n    if (!isComposite[candidate]) {\n      for (i = 0; i < 313; i += candidate) { isComposite[i] = candidate; }\n      hash[primeCounter] = (mathPow(candidate, .5)*maxWord)|0;\n      k[primeCounter++] = (mathPow(candidate, 1/3)*maxWord)|0;\n    }\n  }\n\n  ascii += '\\x80';\n  while (ascii[lengthProperty]%64 - 56) ascii += '\\x00';\n  for (i = 0; i < ascii[lengthProperty]; i++) {\n    j = ascii.charCodeAt(i);\n    if (j>>8) return;\n    words[i>>2] |= j << ((3 - i)%4)*8;\n  }\n  words[words[lengthProperty]] = (asciiBitLength/maxWord)|0;\n  words[words[lengthProperty]] = (asciiBitLength);\n\n  for (j = 0; j < words[lengthProperty]; ) {\n    var w = words.slice(j, j += 16);\n    var oldHash = hash.slice(0);\n    for (i = 0; i < 64; i++) {\n      var w15 = w[i-15], w2 = w[i-2];\n      var a = hash[0], e = hash[4];\n      var temp1 = hash[7]\n        + (rightRotate(e,6) ^ rightRotate(e,11) ^ rightRotate(e,25))\n        + ((e&hash[5]) ^ ((~e)&hash[6]))\n        + k[i]\n        + (w[i] = (i < 16) ? w[i] : (\n            w[i-16]\n            + (rightRotate(w15,7) ^ rightRotate(w15,18) ^ (w15>>>3))\n            + w[i-7]\n            + (rightRotate(w2,17) ^ rightRotate(w2,19) ^ (w2>>>10))\n          )|0\n        );\n      var temp2 = (rightRotate(a,2) ^ rightRotate(a,13) ^ rightRotate(a,22))\n        + ((a&hash[1]) ^ (a&hash[2]) ^ (hash[1]&hash[2]));\n      hash = [(temp1 + temp2)|0].concat(hash);\n      hash[4] = (hash[4] + temp1)|0;\n      hash.pop();\n    }\n    for (i = 0; i < 8; i++) { hash[i] = (hash[i] + oldHash[i])|0; }\n  }\n\n  for (i = 0; i < 8; i++) {\n    for (j = 3; j + 1; j--) {\n      var b = (hash[i] >> (j*8)) & 255;\n      result += ((b < 16) ? '0' : '') + b.toString(16);\n    }\n  }\n  return result;\n}\n\nfunction isHex64(s){\n  return typeof s === 'string' && /^[0-9a-f]{64}$/.test(s);\n}\n\nfunction norm(v){\n  if (v === undefined || v === null) return undefined;\n  v = String(v).trim().toLowerCase();\n  return v ? v : undefined;\n}\n\nvar raw = {{dlv - visitorContactPhone}};\n  if (raw === undefined || raw === null) return undefined;\n  var v = String(raw).replace(/[^0-9]/g, '');\n  if (v.indexOf('55') === 0 && v.length > 10) v = v.substring(2);\n  v = v.trim().toLowerCase();\n  if (!v) return undefined;\n  if (isHex64(v)) return v;\n  return sha256hex(v);\n}"
+                    }
+                ],
+                "fingerprint": "1772325584332",
+                "parentFolderId": "1022",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6331915366",
+                "containerId": "239514513",
+                "variableId": "1313",
+                "name": "dlv - visitorAddressCity",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "visitorAddressCity"
+                    }
+                ],
+                "fingerprint": "1772325584332",
+                "parentFolderId": "1022",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6331915366",
+                "containerId": "239514513",
+                "variableId": "1314",
+                "name": "cjs - SHA256 Hash City (hex)",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\nfunction sha256hex(ascii) {\n  function rightRotate(value, amount) { return (value>>>amount) | (value<<(32-amount)); }\n  var mathPow = Math.pow; var maxWord = mathPow(2, 32);\n  var lengthProperty = 'length';\n  var i, j; var result = '';\n\n  var words = [];\n  var asciiBitLength = ascii[lengthProperty]*8;\n\n  var hash = sha256hex.h = sha256hex.h || [];\n  var k = sha256hex.k = sha256hex.k || [];\n  var primeCounter = k[lengthProperty];\n  var isComposite = {};\n  for (var candidate = 2; primeCounter < 64; candidate++) {\n    if (!isComposite[candidate]) {\n      for (i = 0; i < 313; i += candidate) { isComposite[i] = candidate; }\n      hash[primeCounter] = (mathPow(candidate, .5)*maxWord)|0;\n      k[primeCounter++] = (mathPow(candidate, 1/3)*maxWord)|0;\n    }\n  }\n\n  ascii += '\\x80';\n  while (ascii[lengthProperty]%64 - 56) ascii += '\\x00';\n  for (i = 0; i < ascii[lengthProperty]; i++) {\n    j = ascii.charCodeAt(i);\n    if (j>>8) return;\n    words[i>>2] |= j << ((3 - i)%4)*8;\n  }\n  words[words[lengthProperty]] = (asciiBitLength/maxWord)|0;\n  words[words[lengthProperty]] = (asciiBitLength);\n\n  for (j = 0; j < words[lengthProperty]; ) {\n    var w = words.slice(j, j += 16);\n    var oldHash = hash.slice(0);\n    for (i = 0; i < 64; i++) {\n      var w15 = w[i-15], w2 = w[i-2];\n      var a = hash[0], e = hash[4];\n      var temp1 = hash[7]\n        + (rightRotate(e,6) ^ rightRotate(e,11) ^ rightRotate(e,25))\n        + ((e&hash[5]) ^ ((~e)&hash[6]))\n        + k[i]\n        + (w[i] = (i < 16) ? w[i] : (\n            w[i-16]\n            + (rightRotate(w15,7) ^ rightRotate(w15,18) ^ (w15>>>3))\n            + w[i-7]\n            + (rightRotate(w2,17) ^ rightRotate(w2,19) ^ (w2>>>10))\n          )|0\n        );\n      var temp2 = (rightRotate(a,2) ^ rightRotate(a,13) ^ rightRotate(a,22))\n        + ((a&hash[1]) ^ (a&hash[2]) ^ (hash[1]&hash[2]));\n      hash = [(temp1 + temp2)|0].concat(hash);\n      hash[4] = (hash[4] + temp1)|0;\n      hash.pop();\n    }\n    for (i = 0; i < 8; i++) { hash[i] = (hash[i] + oldHash[i])|0; }\n  }\n\n  for (i = 0; i < 8; i++) {\n    for (j = 3; j + 1; j--) {\n      var b = (hash[i] >> (j*8)) & 255;\n      result += ((b < 16) ? '0' : '') + b.toString(16);\n    }\n  }\n  return result;\n}\n\nfunction isHex64(s){\n  return typeof s === 'string' && /^[0-9a-f]{64}$/.test(s);\n}\n\nfunction norm(v){\n  if (v === undefined || v === null) return undefined;\n  v = String(v).trim().toLowerCase();\n  return v ? v : undefined;\n}\n\nfunction normCity(v) {\n  if (v === undefined || v === null) return undefined;\n  v = String(v).trim().toLowerCase();\n  v = v.normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');\n  return v ? v : undefined;\n}\n\nvar v = {{dlv - visitorAddressCity}};\n  v = normCity(v);\n  if (!v) return undefined;\n  if (isHex64(v)) return v;\n  return sha256hex(v);\n}"
+                    }
+                ],
+                "fingerprint": "1772325584332",
+                "parentFolderId": "1022",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6331915366",
+                "containerId": "239514513",
+                "variableId": "1315",
+                "name": "dlv - visitorAddressState",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "visitorAddressState"
+                    }
+                ],
+                "fingerprint": "1772325584332",
+                "parentFolderId": "1022",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6331915366",
+                "containerId": "239514513",
+                "variableId": "1316",
+                "name": "cjs - SHA256 Hash State (hex)",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\nfunction sha256hex(ascii) {\n  function rightRotate(value, amount) { return (value>>>amount) | (value<<(32-amount)); }\n  var mathPow = Math.pow; var maxWord = mathPow(2, 32);\n  var lengthProperty = 'length';\n  var i, j; var result = '';\n\n  var words = [];\n  var asciiBitLength = ascii[lengthProperty]*8;\n\n  var hash = sha256hex.h = sha256hex.h || [];\n  var k = sha256hex.k = sha256hex.k || [];\n  var primeCounter = k[lengthProperty];\n  var isComposite = {};\n  for (var candidate = 2; primeCounter < 64; candidate++) {\n    if (!isComposite[candidate]) {\n      for (i = 0; i < 313; i += candidate) { isComposite[i] = candidate; }\n      hash[primeCounter] = (mathPow(candidate, .5)*maxWord)|0;\n      k[primeCounter++] = (mathPow(candidate, 1/3)*maxWord)|0;\n    }\n  }\n\n  ascii += '\\x80';\n  while (ascii[lengthProperty]%64 - 56) ascii += '\\x00';\n  for (i = 0; i < ascii[lengthProperty]; i++) {\n    j = ascii.charCodeAt(i);\n    if (j>>8) return;\n    words[i>>2] |= j << ((3 - i)%4)*8;\n  }\n  words[words[lengthProperty]] = (asciiBitLength/maxWord)|0;\n  words[words[lengthProperty]] = (asciiBitLength);\n\n  for (j = 0; j < words[lengthProperty]; ) {\n    var w = words.slice(j, j += 16);\n    var oldHash = hash.slice(0);\n    for (i = 0; i < 64; i++) {\n      var w15 = w[i-15], w2 = w[i-2];\n      var a = hash[0], e = hash[4];\n      var temp1 = hash[7]\n        + (rightRotate(e,6) ^ rightRotate(e,11) ^ rightRotate(e,25))\n        + ((e&hash[5]) ^ ((~e)&hash[6]))\n        + k[i]\n        + (w[i] = (i < 16) ? w[i] : (\n            w[i-16]\n            + (rightRotate(w15,7) ^ rightRotate(w15,18) ^ (w15>>>3))\n            + w[i-7]\n            + (rightRotate(w2,17) ^ rightRotate(w2,19) ^ (w2>>>10))\n          )|0\n        );\n      var temp2 = (rightRotate(a,2) ^ rightRotate(a,13) ^ rightRotate(a,22))\n        + ((a&hash[1]) ^ (a&hash[2]) ^ (hash[1]&hash[2]));\n      hash = [(temp1 + temp2)|0].concat(hash);\n      hash[4] = (hash[4] + temp1)|0;\n      hash.pop();\n    }\n    for (i = 0; i < 8; i++) { hash[i] = (hash[i] + oldHash[i])|0; }\n  }\n\n  for (i = 0; i < 8; i++) {\n    for (j = 3; j + 1; j--) {\n      var b = (hash[i] >> (j*8)) & 255;\n      result += ((b < 16) ? '0' : '') + b.toString(16);\n    }\n  }\n  return result;\n}\n\nfunction isHex64(s){\n  return typeof s === 'string' && /^[0-9a-f]{64}$/.test(s);\n}\n\nfunction norm(v){\n  if (v === undefined || v === null) return undefined;\n  v = String(v).trim().toLowerCase();\n  return v ? v : undefined;\n}\n\nvar v = {{dlv - visitorAddressState}};\n  v = norm(v);\n  if (!v) return undefined;\n  if (isHex64(v)) return v;\n  return sha256hex(v);\n}"
+                    }
+                ],
+                "fingerprint": "1772325584332",
+                "parentFolderId": "1022",
+                "formatValue": {}
             }
         ],
         "folder": [
@@ -10251,7 +10428,7 @@
                 "name": "Container ID"
             }
         ],
-        "fingerprint": "1772314224556",
+        "fingerprint": "1772384248846",
         "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6331915366/containers/239514513/versions/0?apiLink=version",
         "customTemplate": [
             {
